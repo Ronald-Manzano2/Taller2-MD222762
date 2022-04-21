@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Inscríbete</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <nav>
+        <div class="menu">
+            <img src="img/img_menu.jpg" />
+            <div class="cont2">
+            <ul>
+                <li>Inicio</li>
+                <li>El Club</li>
+                <li>Actividades</li>
+                <li>Torneo</li>
+                <li>inscripción en línea</li>
+                <li>Videos</li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Inscríbete</h1>
+
+    <div class="conteiner">
+        <div class="parrafo">
+            <p>Siempre se admiten nuevos estudiantes</p><p id="child">¡¿Qué esperas?!</p><p>Únete a nosotros en estas divertidas clases</p>
+        </div>
+        <div class="formulario">
+            <form action="#" method="POST">
+                <fieldset class="datos"><legend>Datos Personales</legend>
+                <label for="nombres">Nombres: </label>
+                <input type="text" id="nombres" maxlength="20" pattern="[A-Za-z]"><br>
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" id="apellidos" maxlength="20" pattern="[A-Za-z]"><br>
+                <label for="fecha">Fecha de nacimiento: </label>
+                <input type="date" id="fecha"><br>
+                <label for="edad">Edad: </label>
+                <input type="number" id="edad" max="100" min="1"><br>
+                <label for="genero">Género: </label>
+                <input type="radio" id="genero">Masculino
+                <input type="radio" id="genero">Femenino<br>
+                <label for="mail">Correo electrónico: </label>
+                <input type="email" id="mail"><br>
+                <label for="depp">Departamento: </label>
+                <select name="departamentos" id="depp">
+                    <option value="" selected>-Selecciona-</option>
+                    <option value="San Salvador">San Salvador</option>
+                    <option value="San Miguel">San Miguel</option>
+                    <option value="La Unión">La Unión</option>
+                    <option value="La Paz">La Paz</option>
+                    <option value="Cabañas">Cabañas</option>
+                    <option value="Cuscatlán">Cuscatlán</option>
+                    <option value="San Vicente">San Vicente</option>
+                    <option value="Santa Ana">Santa Ana</option>
+                    <option value="Morazán">Morazán</option>
+                    <option value="Chalatenango">Chalatenango</option>
+                    <option value="La Libertad">La Libertad</option>
+                    <option value="Ahuachapán">Ahuachapán</option>
+                    <option value="Sonsonate">Sonsonate</option>
+                    <option value="Usulután">Usulután</option>
+                </select><br>
+
+                <label for="dir">Domicilio: </label>
+                <textarea name="dir" id="dir" cols="20" rows="5"></textarea><br>
+
+                <input type="submit" value="Regístrate" id="enviar">
+                </fieldset>
+            </form>
+         </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <img src="img/logo1.jpg" alt="" class="logo">
+            <img src="img/logo2.png" alt="" class="logo">
+            <img src="img/logo3.png" alt="" class="logo">
+            <img src="img/logo4.png" alt="" class="logo">
+            <h3>Todos los derechos reservados | Diseñado por Ronald Manzano</h3>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*CSS para menu*/
+img[src="img/img_menu.jpg"]{
+    height: 7%;
+    width: 7%;
+    margin: 12px;
+}
+.menu{
+    display: flex;
+    background-color:  black;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+li{
+    margin-top: 4%;
+    margin-left: 70px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 7px;
+    color: red;
+}
+
+li:hover{
+    background: red;
+    font-weight: bold;
+    color: black
+}
+
+/*CSS Texto central*/
+h1{
+    text-align: center;
+}
+
+/*CSS para el contenedor principal*/
+
+.conteiner{
+    display: flex;
+}
+
+/*CSS para el párrafo*/
+
+.parrafo{
+    margin: 12px;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+
+}
+
+.parrafo p{
+    margin-top: 15px;
+    animation: cambio 3s infinite;
+}
+
+#child{
+    margin-left: 100px;
+}
+
+@keyframes cambio {
+    0%{color: red}
+    45%{color:red}
+
+    50%{color:blue}
+    100%{color:blue}
+}
+
+/*CSS para el formulario*/
