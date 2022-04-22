@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscríbete</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <label for="boton">Menú</label>
+    <input type="checkbox" id="boton" class="boton">
+    <nav>
+        <div class="menu">
+            <img src="img/img_menu.jpg" />
+            <div class="cont2">
+            <ul>
+                <li>Inicio</li>
+                <li>El Club</li>
+                <li>Actividades</li>
+                <li>Torneo</li>
+                <li>inscripción en línea</li>
+                <li>Videos</li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Inscríbete</h1>
+
+    <div class="conteiner">
+        <div class="parrafo">
+            <p>Siempre se admiten nuevos estudiantes</p><p id="child">¡¿Qué esperas?!</p><p>Únete a nosotros en estas divertidas clases</p>
+        </div>
+        <div class="formulario">
+            <fieldset class="datos">
+                <legend>Datos Personales</legend>
+            <form action="#" method="POST">
+                <label for="nombres" class="nombre">Nombres: </label><br>
+                <input type="text" id="nombres" maxlength="20" pattern="[a-zA-ZáéóíúÁÉÍÓÚüÜñÑ ']{2,48}" required><br>
+
+                <label for="apellidos">Apellidos: </label><br>
+                <input type="text" id="apellidos" maxlength="20" pattern="[a-zA-ZáéóíúÁÉÍÓÚüÜñÑ ']{2,48}" required><br>
+
+                <label for="fecha">Fecha de nacimiento: </label><br>
+                <input type="date" id="fecha" required><br>
+
+                <label for="edad">Edad: </label><br>
+                <input type="number" id="edad" max="100" min="1" required><br>
+
+                <label for="genero">Género: </label><br>
+                <input type="radio" id="genero" name="genero">Masculino
+                <input type="radio" id="genero" name="genero">Femenino<br>
+
+                <label for="mail">Correo electrónico: </label><br>
+                <input type="email" id="mail" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required><br>
+
+                <label for="depp">Departamento: </label><br>
+                <select name="departamentos" id="depp" required>
+                    <option value="" selected>-Selecciona-</option>
+                    <option value="San Salvador">San Salvador</option>
+                    <option value="San Miguel">San Miguel</option>
+                    <option value="La Unión">La Unión</option>
+                    <option value="La Paz">La Paz</option>
+                    <option value="Cabañas">Cabañas</option>
+                    <option value="Cuscatlán">Cuscatlán</option>
+                    <option value="San Vicente">San Vicente</option>
+                    <option value="Santa Ana">Santa Ana</option>
+                    <option value="Morazán">Morazán</option>
+                    <option value="Chalatenango">Chalatenango</option>
+                    <option value="La Libertad">La Libertad</option>
+                    <option value="Ahuachapán">Ahuachapán</option>
+                    <option value="Sonsonate">Sonsonate</option>
+                    <option value="Usulután">Usulután</option>
+                </select><br><br>
+
+                <label for="dir">Domicilio: </label><br>
+                <textarea name="dir" id="dir" cols="20" rows="5" required></textarea><br>
+
+                <input type="submit" value="Regístrate" id="enviar">
+            </form>
+            </fieldset>
+         </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <img src="img/logo1.png" alt="" class="logo">
+            <img src="img/logo2.png" alt="" class="logo">
+            <img src="img/logo3.png" alt="" class="logo">
+            <img src="img/logo4.png" alt="" class="logo">
+            <h3>Todos los derechos reservados | Diseñado por Ronald Manzano</h3>
+        </div>
+    </footer>
+</body>
+</html>
